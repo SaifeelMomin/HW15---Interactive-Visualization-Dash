@@ -16,7 +16,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "JAWSDB_URL"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://po68o61wovdijqlx:d2uabklc853xbiny@arfo8ynm6olw6vpn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s55wv35bemctwpg8"
 db = SQLAlchemy(app)
 
 # reflect an existing database into a new model
